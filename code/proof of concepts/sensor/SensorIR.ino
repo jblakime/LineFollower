@@ -1,10 +1,10 @@
 const int sensorPins[8] = {A0, A1, A2, A3, A4, A5, A6, A7};
-const int pinIR = 10;
+const int pinIR = 2;
 
 void setup() {
   Serial.begin(115200);
   pinMode(pinIR, OUTPUT);
-  digitalWrite(IR, HIGH);
+  digitalWrite(pinIR, HIGH);
 }
 
 void loop() {
@@ -17,5 +17,5 @@ void loop() {
   }
   Serial.println();
 
-  delay(200);
+  delay(500);
 }
