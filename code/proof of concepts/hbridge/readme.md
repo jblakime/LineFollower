@@ -8,4 +8,3 @@ De H-brug gebruikt een DRV8833-chip.
 2. Verbind de uitgangen van de chip aan de 2 DC-motoren.
 3. De voeding van de driver verbind je met de batterij met gemeenschappelijke massa.
 4. EEP verbind je aan de VCC van de microcontroller zodat de chip niet in sleepmodus staat.
-5. Verbind ULT met een pull-upweerstand aan VCC. Deze pin wordt gebruikt voor foutdetectie.
