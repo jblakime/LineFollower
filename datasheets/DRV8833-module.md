@@ -21,9 +21,6 @@ Breakout-module met de TI DRV8833 (soms geleverd met de compatibele HR8833 [3]).
 
 Pinnummering en functies volgens [2] en [3].
 
-> Let op: sommige bronnen verwisselen de betekenis van EEP en ULT. TinyTronics [3] en Components101 [2] geven EEP = sleep en ULT = fault.
-> Op de module zit soms een soldeerbrug **J2** die de chip standaard uit slaapstand houdt. Wil je EEP vanuit de Nano sturen, dan moet J2 open zijn [3].
-
 ## Specificaties
 
 | Parameter | Waarde | Bron |
